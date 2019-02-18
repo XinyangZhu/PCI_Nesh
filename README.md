@@ -3,8 +3,11 @@ This Project is Young Zhu's Path to Internship Project for Nesh.
 ## How To Run
 0. Download this project and direct into it. 
 1. Run 'python webscraper.py'. This python file repeatedly (every 60 seconds) scrapes information about target companies from Nazdaq / SeekingAlpha and loads data into src/assets/data.json. 
-2. Run 'npm start'. This fires up the React app in your web browser. 
+2. Run 'npm start'. This fires up the React app in your web browser. If not, type localhost:3000 in your browser. 
 3. Now use this app to search for financial data about your target company! 
+
+## Possible Problem
+SeekingAlpha is the only available source for Earnings Call Transcript, yet it often blocks web scraping. Therefore, it is highly possible that you can't find information about the Earnings Call Transcript using this app. 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
