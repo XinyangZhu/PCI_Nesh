@@ -162,11 +162,17 @@ def processCallTranscript(html):
 		"nt_caller": ntCaller}
 	return result
 
+"""
+Set interval for updating data
+"""
 def setInterval(func, time):
 	e = threading.Event()
 	while not e.wait(time):
 		func()
 
+"""
+Update data repeatedly
+"""
 def updateData():
 	print('Updating data...')
 	data = {}
