@@ -9,6 +9,11 @@ This Project is Young Zhu's Path to Internship Project for Nesh.
 ## Possible Problem
 SeekingAlpha is the only available source for Earnings Call Transcript, yet it often blocks web scraping. Therefore, it is highly possible that you can't find information about the Earnings Call Transcript using this app. 
 
+## Special Note about Earnings Call Transcript Analysis
+I was able to retreive data and analyze how long did each participant spoke for, but SeekingAlpha is very unstable for web scraping, so I didn't include it in my web page. You can see from the code / data from webscraper.py/data.json that I also analyzed who spoke the longest / shortest. 
+
+
+## Notes from Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

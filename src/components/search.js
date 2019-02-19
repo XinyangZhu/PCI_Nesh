@@ -17,11 +17,11 @@ const Button = Styled.button`
 `;
 
 const Input = Styled.input`
-	color: white;
+	color: black;
 	font-size: 1.2em;
-	border: 2px solid #f4e141;
+	border: 2px solid white;
+	background-color: white;
 	border-radius: 3px;
-	background: transparent;
 	padding: 0.25em 0.5em;
 	margin: 0.5em;
 `;

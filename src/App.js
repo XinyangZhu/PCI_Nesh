@@ -39,7 +39,7 @@ class App extends Component {
       <div className="cover-container d-flex w-100 h-auto mh-100 p-3 mx-auto flex-column">
 			  <header className="masthead mb-auto">
 			    <div className="inner">
-			      <h3 className="masthead-brand">P.C.I.</h3>
+			      <h3 className="masthead-brand"><img style={{maxWidth: '80px'}} src="http://hellonesh.io/static/images/nesh.png"/></h3>
 			      <nav style={{cursor: 'pointer'}} className="nav nav-masthead justify-content-center">
 			        <a id="menulink" className="nav-link" style={{color: 'grey', display: 'none'}} onClick={() => this.switchPage(1)}>Return to search bar</a>
 			      </nav>

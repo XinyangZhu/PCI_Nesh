@@ -25,6 +25,9 @@ class Info extends Component {
 			const transcript_data = myData["call_transcript"]
 
 			const Grid = Styled.div`
+				text-shadow: none;
+				background-color: white;
+				color: black;
 				display: grid; 
 				grid-template-columns: auto auto;
 				grid-template-rows: auto auto auto auto auto;
